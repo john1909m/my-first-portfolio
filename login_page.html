@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>John's login page</title>
+        <style>
+         body{
+            background-image: url(lantern\ book.jpg),linear-gradient(rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.651));
+            background-blend-mode: overlay;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+         }   
+         .all{
+            box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+            background-color:rgba(0, 1, 66, 0.623);
+            text-align: center;
+            max-width: max-content;
+            margin-top: auto;
+            margin-left: 50px;
+            padding: 70px;
+            border-radius: 30px;
+         }
+         .text{
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+         }
+         .box{
+            padding: 10px;
+            border-radius: 20px;
+            background-color: rgba(1, 1, 63, 0.671);
+         }
+         .b1{
+            padding: 10px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding-inline: 100px;
+            border-radius: 20px;
+            background-color: rgba(1, 1, 63, 0.671);
+            color: white;
+            box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+
+        }
+        .spongebob{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 300px; 
+            height: auto;
+            z-index: 2000;
+        }
+        
+        </style>
+    </head>
+    <body>
+        
+        <div class="all">
+        <img src="my face vector edit.png" alt="my logo" style="width: 150px; height: 150px;"> 
+        <h1 class="text" style="font-size: 40px;">Sign in</h1>
+        <form>
+            <label class="text" style="font-size: 20px;">Username</label>
+            <br>
+            <input id="username"  class="box" type="text" style="color: white;" autocomplete="off" placeholder="Enter your username">
+            <br><br>
+            <label class="text" style="font-size: 20px;">Password</label>
+            <br>
+            <input id="password"  class="box" type="password" style="color: white;" autocomplete="off" placeholder="Enter your password">
+            <br>
+            <br>
+            <br>
+            <button onclick="login()" class="b1" type="button">Login</button>
+        </form>
+    </div>
+    <img src="sponge-bob-square-pants-dance.gif" alt="sponge-bob-square-pants-dance" class="spongebob">
+    <script>
+        function login(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if(username == ""){
+                alert("please enter username");
+                return;
+            }
+            else if (password == ""){
+                alert("please enter your password");
+                return;
+            }
+            if(username == "john" && password == "1234"){
+                window.location.replace("john's_portfolio.html");
+            }
+            else{
+                alert("wrong password or username");
+                return;
+            }
+
+        }
+    </script>    
+</body>
+</html>

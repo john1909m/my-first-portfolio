@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            John Emil's basic site
+        </title>
+        <style>
+            .all{
+                background-image:url(headphone\ wave\ 2.jpg),linear-gradient(rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.651));
+                background-blend-mode: overlay;;
+                background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding-top: 20px ;
+            }
+            .title{
+                text-align: center;
+                background-color: rgb(0, 0, 73);
+                color: white;
+                padding: 15px;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            ul,p,h2,h3{
+                color: white;
+                border-color: white;
+                border: 2px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h4{
+                font-size: larger;
+                background-color: yellow;
+                max-width: max-content;
+                border-radius: 5px;
+                margin-left: 40px;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+            .por{
+                text-align: center;
+                max-width: fit-content;
+               background-color: rgb(0, 0, 73);
+                border-radius: 10px ;
+                font-size: 20px;
+                padding: 10px;
+                margin: auto;
+
+            }
+            .menu{
+                width: 100%;
+                color: white;
+                font-size: 20px;
+                text-align: center;
+               background-color: rgb(0, 0, 73);
+                border-radius: 10px ;
+                padding: 10px;
+                margin: auto;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .img{
+                margin: auto;
+                text-align: center;
+                padding: 20px;
+                border-radius: 10px;
+                border: 2px solid yellow;
+                max-width: fit-content;
+            }
+            .links{
+                text-align: center;
+                margin: auto;
+                width: 50%;
+                font-size: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .Contact{
+                text-align: center;
+                
+            }
+            .b1{
+                text-align: center;
+                margin-left: 80px;
+                width: 100%;
+                max-width: fit-content;
+                border-radius: 20px;
+                font-size: 15px;
+            }
+            .hacklogo{
+                position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 100px; 
+            height: auto;
+            z-index: 2000; 
+            }
+
+        </style>
+    </head>
+        <body>
+        
+            <div class="all">
+        <div class="title">
+            <h1>John Emil</h1>
+            <h3>Graphic Designer | Motion Designer | Junior Cypersecurity specialist</h3>
+            <p>Hello to my basic website</p>
+            <p>Here i will show you my skills and my previous work</p>
+            <hr>
+        </div>
+            <div class="all">
+            <p style="text-align: center; border: 3px solid white; border-radius: 15px; margin: auto; font-size: 20px;">Creative and detail-oriented Graphic Designer and Motion Designer
+                with <b>over 2 years</b> of experience in creating visually compelling 
+                designs and animations. 
+                Adept in using design software and implementing cybersecurity measures
+                to ensure the <i>safety and integrity</i> of digital assets.
+                Seeking to leverage my skills and experience to contribute to the success</p>
+                <h4>My Skills:</h4>
+                <ul>
+                    <li>Graphic Design</li>
+                    <li>Motion Design</li>
+                    <li>Cybersecurity</li>
+                    <li>Adobe Creative Suite (Photoshop, Illustrator, After Effects, Premiere pro)</li>
+                    <li>Network Security</li>
+                    <li>Penetration Testing</li>
+                </ul>
+                <br>
+                <h4 id="cir">My Certifications:</h4>
+                <ul>
+                    <li id="li1">Graphic design diploma at Arcplan group (2021)</li>
+                    <li id="li2">Motion graphic diploma at Arcplan group (2022)</li>
+                    <li id="li3">Ethical Hacking Essentials (EHE) by EC-Council (2024)</li>
+                    <li id="li4">Certified Ethical Hacker (CEH) at Edux academy (2024)</li>
+                    <li id="li5">Offensive Security Certified Professional (OSCP) at edux academy (2024)</li>
+                </ul>
+                <button onclick="swap()" class="b1">Switch To My Education</button>
+                <button onclick="swap2()" class="b1">Switch To Certifications</button>
+                <hr>
+            <div class="Portfolio">
+                <h3 class="por">My Portfolio:</h3>
+                <br>
+                <table class="menu">
+                    <tr>
+                <td><a href="#social"> Social Media Design</a></td>
+                <td><a href="#man">Manipulations</a></td>
+                <td><a href="#art">Art</a></td>
+                <td><a href="#motion">Motion Graphics</a></td>
+            </tr>
+            </table>
+        </div>
+            <br>
+            <br>
+            <br>
+                <h2 id="social" style="background-color: yellow; color: black;
+                max-width: max-content; text-align: center;
+                border-radius: 5px;
+                margin:auto;
+                font-family: Arial, Helvetica, sans-serif;""
+                    >Social Media Designs:</h2>
+                <br>
+                <div class="img">
+                <img src="bag advertising.jpg" alt="hand bag design" width="400px" height="400px">
+                <img src="fast dilivery2.jpg" alt="fast delivery" width="400px" height="400px">
+                <br>
+                <img src="fast cooking.jpg" alt="fast cooking" width="400px" height="400px">
+                <img src="pepsi 3D  design.jpg" alt="pepsi 3D" width="400px" height="400px">
+            </div>
+                <br>
+                <hr>
+                <h2 id="man" style="background-color: yellow; color: black;
+                max-width: max-content; text-align: center;
+                border-radius: 5px;
+                margin:auto;
+                font-family: Arial, Helvetica, sans-serif;"">Manipulations:</h2>
+                <div class="img">
+                <img src="rhino crystal 2.jpg" alt="rhino crystal" width="400px" height="300px">
+                <img src="lantern book.jpg" alt="lantern book" width="453px" height="258px">
+                <br>
+                <img src="manipulation black panther.jpg" alt="black panther" width="500px" height="250px">
+                <img src="train camera pro tt.jpg" alt="train camera" width="453px" height="258px">
+                </div>
+                <br>
+                <hr>
+                <h2 id="art" style="background-color: yellow; color: black;
+                max-width: max-content; text-align: center;
+                border-radius: 5px;
+                margin:auto;
+                font-family: Arial, Helvetica, sans-serif;"">Art:</h2>
+                <div class="img">
+                <img src="woman vector 1.jpg" alt="woman vector" width="300" height="420">
+                <img src="woman vector 2.jpg" alt="woman vector" width="300" height="420">
+                </div>
+                <br>
+                <hr>
+                <h2 id="motion" style="background-color: yellow; color: black;
+                max-width: max-content; text-align: center;
+                border-radius: 5px;
+                margin:auto;
+                font-family: Arial, Helvetica, sans-serif;"">Motion Graphics:</h2>
+                <div class="img">
+                <video src="my cv motion video full compressed.mp4" type="video/mp4" controls width="640" height="480"></video>
+            </div>
+                <hr>
+                <h2 class="Contact">Contact me:</h2>
+                <table class="links">
+<tr>
+                
+                <td><a href="https://www.linkedin.com/in/john-emil-0134a3239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">linkedin</a></td>
+                <td><a href="https://www.behance.net/JohnEmil21">behance</a></td>
+            </tr>
+            </table>
+            <img src="hydra-we-bhack.gif" alt="hacker logo" class="hacklogo">
+            <br>
+            <hr>
+            <button style="font-size: 20px; border-radius: 20px;background-color: yellow;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-style: oblique; margin-left: 47%; text-align: center;" ><a href="login_page.html" style="color: black;" target="_blank">Logout</a></button>
+                <footer style="background-color: rgb(0, 0, 73); padding: 10px; text-align: center; font-style: oblique;">
+                    <p>Email: johnemil21@yahoo.com | Phone: 01200158852 | Location: [Giza - October]</p>
+                </footer>
+            </div>
+            <script>
+                 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        function swap(){
+            document.getElementById('cir').innerHTML='My Education';
+            document.getElementById('li1').innerHTML='School: El-Mostakbal language school';
+            document.getElementById('li2').innerHTML='University: Modern academy maadi';
+            document.getElementById('li3').innerHTML='College: Faculty of Engineering';
+            document.getElementById('li4').innerHTML='Major: electrical';
+            document.getElementById('li5').innerHTML='Grade of first year: Very good';
+            
+        }
+        function swap2(){
+            document.getElementById('cir').innerHTML='My Certifications';
+            document.getElementById('li1').innerHTML='Graphic design diploma at Arcplan group (2021)';
+            document.getElementById('li2').innerHTML='Motion graphic diploma at Arcplan group (2022)';
+            document.getElementById('li3').innerHTML='Ethical Hacking Essentials (EHE) by EC-Council (2024)';
+            document.getElementById('li4').innerHTML='Certified Ethical Hacker (CEH) at Edux academy (2024)';
+            document.getElementById('li5').innerHTML='Offensive Security Certified Professional (OSCP) at edux academy (2024)';
+        }
+            </script>
+        </body>
+</html>
